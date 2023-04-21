@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: pixel-art;
-  src: url("/font/PixelEmulator.ttf");
+  src: url("font/PixelEmulator.ttf");
 }
 
 body {
@@ -16,7 +16,7 @@ body {
   width: 600px;
   height: 150px;
   margin: calc(50vh - 150px) auto;
-  background-image: url("/image/Ground.png");
+  background-image: url("image/Ground.png");
   background-repeat: repeat-x;
   background-position: 0 bottom;
   position: relative;
@@ -68,7 +68,7 @@ body {
   border: none;
   width: 37px;
   height: 37px;
-  background-image: url("/image/ReplayBtn.png");
+  background-image: url("image/ReplayBtn.png");
   background-repeat: no-repeat;
   position: absolute;
   top: 60px;
